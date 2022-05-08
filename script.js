@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://kodilla-tasks-rs.herokuapp.com';
+  var apiRoot = 'https://kodilla-tasks-rs.herokuapp.com/v1/tasks';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
